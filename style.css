@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --dark-bg: #1f2937;
+  --hero-main-txt: #f9faf8;
+  --hero-second-txt: #e5e7eb;
+  --header-logo-txt: #f9faf8;
+  --btn: #3882f6;
+  --info-header: #1f2937;
+  --quote-sct-bg: #e5e7eb;
+  --quote-txt: #1f2937;
+}
