@@ -134,3 +134,32 @@ header {
   margin-top: 15px;
   font-weight: 700;
 }
+
+/* action */
+#action {
+  background-color: var(--btn);
+  width: 75%;
+  margin: 100px auto;
+  border-radius: 8px;
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#action h3 {
+  color: var(--header-logo-txt);
+}
+#action p {
+  color: var(--hero-second-txt);
+}
+#action button {
+  border: 2px solid var(--header-logo-txt);
+  border-radius: 5px;
+  padding: 6px 30px;
+  background-color: transparent;
+  color: var(--header-logo-txt);
+  font-weight: 700;
+}
+button:hover {
+  cursor: pointer;
+}
