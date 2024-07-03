@@ -1,7 +1,10 @@
+/* variables, font and css reset */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 :root {
   --dark-bg: #1f2937;
@@ -12,4 +15,71 @@
   --info-header: #1f2937;
   --quote-sct-bg: #e5e7eb;
   --quote-txt: #1f2937;
+}
+/* hero section */
+#hero-wrapper {
+  background-color: var(--dark-bg);
+  padding: 20px 12% 120px 12%;
+}
+#hero-wrapper a {
+  text-decoration: none;
+}
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header-logo {
+  font-size: 24px;
+  color: var(--header-logo-txt);
+  font-weight: 800;
+}
+#right-header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  gap: 22px;
+}
+#right-header ul a {
+  font-size: 18px;
+  color: var(--hero-second-txt);
+}
+
+/* hero main */
+#hero-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  gap: 5%;
+}
+#hero-main h1 {
+  font-size: 48px;
+  color: var(--hero-main-txt);
+}
+#left-hero {
+  flex-basis: 45%;
+}
+#left-hero p {
+  color: var(--hero-second-txt);
+  margin: 10px 0;
+}
+#left-hero button {
+  background-color: var(--btn);
+  border: none;
+  padding: 6px 30px;
+  border-radius: 5px;
+  color: var(--hero-main-txt);
+  font-weight: 700;
+}
+#right-hero {
+  flex-basis: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--hero-second-txt);
+  background-color: #686868;
+  height: 200px;
 }
