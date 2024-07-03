@@ -113,3 +113,24 @@ header {
   border: 2px solid var(--btn);
   border-radius: 16px;
 }
+
+/* quote */
+#quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--quote-sct-bg);
+  padding: 5% 25%;
+  font-size: 36px;
+}
+#quote-txt {
+  color: var(--quote-txt);
+  font-style: italic;
+}
+#signature {
+  align-self: flex-end;
+  margin-right: 30px;
+  margin-top: 15px;
+  font-weight: 700;
+}
