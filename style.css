@@ -83,3 +83,33 @@ header {
   background-color: #686868;
   height: 200px;
 }
+
+/* information */
+
+#information {
+  text-align: center;
+}
+#information h2 {
+  font-size: 36px;
+  font-weight: 900;
+  margin-top: 40px;
+}
+#info-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin: 40px 0 100px 0;
+}
+.info-img-container {
+  width: 160px;
+}
+.info-img-container p {
+  margin-top: 10px;
+}
+.img {
+  width: 160px;
+  height: 160px;
+  border: 2px solid var(--btn);
+  border-radius: 16px;
+}
